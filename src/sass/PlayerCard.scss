@@ -1,0 +1,47 @@
+
+@import "./reset";
+@import "./variables";
+
+
+.cardsTop{
+
+    cursor: pointer;
+
+    img{
+        
+        width: 200px;
+        height: 300px;
+        object-fit: cover;
+        border-radius: 0.5rem;
+
+        &:hover{
+            transition:all 0.3s;
+            transform: scale(1);
+            border: 1px solid red;
+            padding: 0.5rem;
+            border-radius: 0.5rem;
+            opacity: 0.6;
+        }
+    }
+
+    h5{
+
+        padding: 1rem;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+}
+
+.statisticsTop{
+
+    cursor: pointer;
+    list-style: none;
+    padding: 1rem;
+    background-color: $playerCardBackground;
+    border-radius: 0.5rem;
+    height: 300px;
+
+    li{
+        margin-bottom: 1rem;
+    }
+}
+
