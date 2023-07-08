@@ -1,6 +1,4 @@
 
-import { useState } from "react"
-
 import "..//.//sass/Header.scss"
 import image from "../assets/nba-logo.png"
 
