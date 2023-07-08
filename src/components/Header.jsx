@@ -6,9 +6,6 @@ import image from "../assets/nba-logo.png"
 
 export const Header = () => {
 
-    const [name, setName] = useState("")
-
-
   return (
     <div>
 
