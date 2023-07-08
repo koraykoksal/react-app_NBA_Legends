@@ -1,0 +1,19 @@
+@import "./reset";
+@import "./variables";
+
+
+
+.header{
+
+
+    img{
+
+        width: 200px;
+    }
+
+    h1{
+        color: $h1TextColor;
+        letter-spacing: 0.5rem;
+        margin-top: 1rem;
+    }
+}
