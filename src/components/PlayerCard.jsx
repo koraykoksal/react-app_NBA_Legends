@@ -12,7 +12,8 @@ export const PlayerCard = ({img,name,statistics}) => {
 
 
   return (
-    <div onClick={handleClick}>
+
+    <div onClick={handleClick} className="test">
 
         {
             showImage? (
@@ -29,7 +30,7 @@ export const PlayerCard = ({img,name,statistics}) => {
 
                         <div className="statistics">
                             <li key={i}>
-                            👑{item}
+                            🏀 {item}
                             </li>
                         </div>
                         
@@ -40,11 +41,6 @@ export const PlayerCard = ({img,name,statistics}) => {
         <div className="cardDetail text-center">
             <h5>{name}</h5>
         </div>
-
-
-
-
-
 
     </div>
   )

@@ -9,6 +9,10 @@ export const CardContainer = () => {
 
     <div className="container mb-4 allCards">
 
+      <div className="form-group mt-4">
+            <input type="text" className="form-control search" placeholder="Search Player" />
+      </div>
+
       <div className="players">
 
       

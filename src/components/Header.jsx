@@ -20,6 +20,8 @@ export const Header = () => {
             <h1>NBA Legends</h1>
 
             
+            
+            
         </div>
 
 

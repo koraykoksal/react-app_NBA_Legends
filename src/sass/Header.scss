@@ -16,4 +16,14 @@
         letter-spacing: 0.5rem;
         margin-top: 1rem;
     }
+
+    input{
+
+        
+
+        &:focus{
+            color: red;
+            font-weight: bold;
+        }
+    }
 }
