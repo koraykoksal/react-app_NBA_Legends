@@ -37,10 +37,9 @@
     list-style: none;
     padding: 1rem;
     background-color: $playerCardBackground;
-    // background-image: url("../assets/nba_background.jpg");
-    // background-repeat:no-repeat;
-    // object-fit: cover;
-    // background-size:contain;
+    background-image: url("../assets/nba_background.jpg");
+    background-repeat:round;
+    background-size:cover;
     height: 300px;
     width: 200px;
     border-radius: 0.5rem;
@@ -51,7 +50,7 @@
     li{
         margin-bottom: 1rem;
         font-weight: bold;
-        color: black;
+        color: white;
     }
 }
 
