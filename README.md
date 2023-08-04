@@ -4,6 +4,8 @@
 [Click to see React Bootstrap Components](https://react-bootstrap.netlify.app/docs/components/accordion)
 [Click to see React Bootstrap Components](https://react-bootstrap.netlify.app/docs/layout/grid)
 
+PROJECT LIVE LINK : https://nbalegend-app.netlify.app
+
 React Bootstrap is an integration kit that enables Bootstrap, a popular UI (User Interface) component library, to be used in React applications.
 
 React-Bootstrap is a complete re-implementation of Bootstrap components using React. It has no dependency on Bootstrap.js or jQuery. If you have React installed and React-Bootstrap installed, you have everything you need.
